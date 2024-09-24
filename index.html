@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Responsivo</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <h1 class="logo">Logo</h1>
+      <nav>
+        <ul>
+          <li><a href="./quem-somos.html">Quem Somos</a></li>
+          <li><a href="#onde-estamos">Onde Estamos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <audio controls>
+        <source src="/audios/audio.mp3" type="audio/mpeg">
+        <source src="/audios/audio.ogg" type="audio/ogg">
+        <source src="/audios/audio.wav" type="audio/wav">
+        <p>Seu navegador não tem suporte à tag áudio.</p>
+      </audio>
+      <input id="main-input" placeholder="Digite aqui"></input>
+      <section class="painel">
+        
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook-square"></i>
+        <div class="info">
+          <h1>Um filme do Batman</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quas
+            ipsa recusandae repellat quibusdam nesciunt omnis qui, sit odit
+            accusantium mollitia, beatae maiores aspernatur modi amet enim
+            expedita consequuntur magni!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quas
+            ipsa recusandae repellat quibusdam nesciunt omnis qui, sit odit
+            accusantium mollitia, beatae maiores aspernatur modi amet enim
+            expedita consequuntur magni!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quas
+            ipsa recusandae repellat quibusdam nesciunt omnis qui, sit odit
+            accusantium mollitia, beatae maiores aspernatur modi amet enim
+            expedita consequuntur magni!
+          </p>
+        </div>
+
+        <div class="image">
+          <picture>
+            <source
+              srcset="./images/batman-pequena.jpg"
+              media="(max-width: 700px)"
+            />
+            <img src="./images/batman.jpg" alt="Um filme do Batman" />
+          </picture>
+        </div>
+
+        <video controls width= "900">
+          <source src="/videos/video.mp4" type="video/mp4">
+          <source src="/videos/video.ogv" type="video/ogv">
+          <source src="/videos/video.webm" type="video/webm"> 
+          <p>Seu navegador não tem suporte à tag vídeo.</p>
+        </video>
+
+      </section>
+    </main>
+  </body>
+  <script src="/mille.js"></script>
+</html>
